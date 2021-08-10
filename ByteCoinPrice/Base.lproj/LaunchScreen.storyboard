@@ -16,13 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ByteCoin" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-cu-0Ma">
-                                <rect key="frame" x="45" y="200" width="324" height="497"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ByteCoin" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-cu-0Ma">
+                                <rect key="frame" x="34" y="211" width="347" height="475"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="c4A-cu-0Ma" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="I1E-gX-6a8"/>
+                            <constraint firstItem="c4A-cu-0Ma" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Syb-cd-gyh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
